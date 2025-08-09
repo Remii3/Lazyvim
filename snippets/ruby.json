@@ -1,0 +1,86 @@
+{
+  "Def Method": {
+    "prefix": "def",
+    "body": [
+      "def ${1:method_name}",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Def Self Method": {
+    "prefix": "defs",
+    "body": [
+      "def self.${1:method_name}",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Class": {
+    "prefix": "class",
+    "body": [
+      "class ${1:ClassName}",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Module": {
+    "prefix": "mod",
+    "body": [
+      "module ${1:ModuleName}",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Each Do": {
+    "prefix": "each",
+    "body": [
+      "${1:collection}.each do |${2:item}|",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Times Do": {
+    "prefix": "times",
+    "body": [
+      "${1:n}.times do",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Do End Block": {
+    "prefix": "do",
+    "body": [
+      "do",
+      "  ${0}",
+      "end"
+    ]
+  },
+  "Debug Binding": {
+    "prefix": "dbg",
+    "body": "binding.irb"
+  },
+  "Print Debug": {
+    "prefix": "pdbg",
+    "body": "puts \"DEBUG: ${1:msg}\""
+  },
+  "Require": {
+    "prefix": "req",
+    "body": "require \"${1:file}\""
+  },
+  "Require Relative": {
+    "prefix": "reqr",
+    "body": "require_relative \"${1:file}\""
+  },
+  "Attr Accessor": {
+    "prefix": "attr",
+    "body": "attr_accessor :${1:attr_name}"
+  },
+  "Initialize": {
+    "prefix": "init",
+    "body": [
+      "def initialize(${1:args})",
+      "  ${0}",
+      "end"
+    ]
+  }
+}
