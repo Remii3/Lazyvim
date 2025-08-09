@@ -4,7 +4,7 @@
     "body": "<%= ${1:expression} %>"
   },
   "ERB Script": {
-    "prefix": "e-",
+    "prefix": "es",
     "body": "<% ${1:code} %>"
   },
   "ERB Comment": {
