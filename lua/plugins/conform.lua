@@ -5,6 +5,7 @@ return {
       yaml = { "prettierd" },
       ["eruby.yaml"] = { "prettierd" },
       kdl = { "kdlfmt" },
+      eruby = { "htmlbeautifier" },
     },
   },
 }
